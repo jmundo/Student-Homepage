@@ -31,7 +31,7 @@ header {
 	font-size: 36px;
 	padding: 1em;
 	color: #FFFFFF;
-	border-bottom: 5px solid #50A0EF;
+	border-radius: 5px;
 }
 
 header p {
@@ -45,14 +45,55 @@ section {
 	padding-right: 1em;
 }
 
-.mission {
-	background-color: rgba(168, 207, 218, .7);
-}
-
 footer {
 	padding-bottom: 1px;
 	padding-left: 10px;
 	border-top: 2px dashed #2CA2C8;
 	margin-right: 80%;
 	margin-left: 10px;
+}
+
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin-left: 20px;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #60B0FF;
 }
