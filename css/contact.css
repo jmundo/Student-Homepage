@@ -40,6 +40,11 @@ header p {
 	margin-bottom: 0;
 }
 
+section {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 footer {
 	padding-bottom: 1px;
 	padding-left: 10px;
@@ -48,17 +53,8 @@ footer {
 	margin-left: 10px;
 }
 
-#profile img{        
-    border: 5px solid #000000;
-    margin: 1em;
-    width:60%;
-    height:60%;
-
-}
-
-.about {
+section{
     padding-left: 1em;
-    padding-right: 1em;
 }
 
 #nav {

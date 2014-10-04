@@ -48,6 +48,10 @@ footer {
 	margin-left: 10px;
 }
 
+section{
+    padding-left: 1em;
+}
+
 #profile img{        
     border: 5px solid #000000;
     margin: 1em;
